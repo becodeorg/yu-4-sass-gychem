@@ -1,6 +1,9 @@
 body {
+  $varpadding: 16px;
+  $textcolor: #2748b3;
+
   font: 100% "Space Mono", monospace;
-  color: #2748b3;
+  color: $textcolor;
   margin: 0px;
   padding: 0px;
   background-color: #000;
@@ -22,8 +25,6 @@ body {
     box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   }
 
-  $varpadding: 16px;
-
   article {
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +39,12 @@ body {
       overflow: auto;
       box-sizing: border-box;
       @include box-shadow-styling;
+
+      nav {
+        text-align: center;
+        color: white;
+        }
+        
 
       &#selling-points {
         flex-grow: 2;

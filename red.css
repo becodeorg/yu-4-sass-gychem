@@ -109,4 +109,19 @@ body .error {
 body .warning {
   background-color: orange;
 }
-/*# sourceMappingURL=style.css.map */
+
+body {
+  color: #790000;
+  background-color: #bd5151;
+}
+
+body h1,
+body h2,
+body h6 {
+  color: #570303;
+}
+
+body .message, body .success, body .error, body .warning {
+  color: #570303;
+}
+/*# sourceMappingURL=red.css.map */
