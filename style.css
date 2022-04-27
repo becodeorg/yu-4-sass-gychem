@@ -9,45 +9,29 @@ body {
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   background-attachment: fixed;
 }
-
 body article {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 body article section {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
+  flex-grow: 1;
+  flex-basis: 45%;
   border: 1px silver solid;
   padding: 16px;
   margin: 16px;
   clear: both;
   overflow: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  box-sizing: border-box;
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
 }
-
 body article section nav {
   text-align: center;
   color: white;
 }
-
 body article section#selling-points {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-grow: 2;
+  flex-basis: 100%;
 }
-
 body article pre {
   background: #000;
   border: 1px solid #ddd;
@@ -62,51 +46,41 @@ body article pre {
   display: block;
   white-space: pre-wrap;
 }
-
 body article pre.before {
   float: left;
   width: 40%;
 }
-
 body article pre.after {
   float: right;
   width: 40%;
 }
-
 body h1,
 body h2,
 body h6 {
   color: #6b8eff;
 }
-
 body h1 {
   text-align: center;
 }
-
 body h6 {
   text-align: center;
   font-size: 2em;
   padding: 32px;
   margin-bottom: 0px;
 }
-
-body .message, body .success, body .error, body .warning {
+body .message, body .warning, body .error, body .success {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
   color: #2748b3;
   background-color: #000;
 }
-
 body .success {
   background-color: green;
 }
-
 body .error {
   background-color: red;
 }
-
 body .warning {
   background-color: orange;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
